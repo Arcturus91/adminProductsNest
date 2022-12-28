@@ -48,7 +48,6 @@ export class ProductsService {
 
       /* const name = updateProductDto.category['name'];
       const slug = updateProductDto.category['slug'];
-      console.log(name, slug, updatedProduct.category.name);
       updatedProduct.category.name = name;
       updatedProduct.category.slug = slug; */
     }
@@ -56,7 +55,6 @@ export class ProductsService {
     if (updateProductDto.brand) {
       const name = updateProductDto.brand['name'];
       const slug = updateProductDto.brand['slug'];
-      console.log(name, slug, updatedProduct.brand.name);
       updatedProduct.brand['name'] = name;
       updatedProduct.brand['slug'] = slug;
     }
